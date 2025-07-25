@@ -1,0 +1,40 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# MyPy & Pylint
+.mypy_cache/
+.pylint.d/
+
+# Alembic
+alembic/versions/*.pyc
+
+# Logs
+*.log
+
