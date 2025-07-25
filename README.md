@@ -55,8 +55,8 @@ Ecommerce/
 ### 1. Clone the repo and set up virtual environment
 
 ```bash
-git clone https://github.com/your-username/fastapi-ecommerce.git
-cd fastapi-ecommerce
+git clone https://github.com/ckinage23/ECommerceAPI.git
+cd ECommerceAPI
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -138,8 +138,7 @@ Authorization: Bearer <access_token>
 
 ✅ Import the Postman collection and environment from the links below:
 
-- 🔗 [Postman Collection](https://www.postman.com/your-username/workspace/fastapi-ecommerce/collection/your-postman-id)
-- 🔗 [Postman Environment](https://www.postman.com/your-username/workspace/fastapi-ecommerce/environment/your-env-id)
+- 🔗 https://traffic-monitor-api.postman.co/workspace/Online-Shopping~decbb04e-fc98-443d-a997-70892a1b35e4/collection/43170492-f4da6042-ce52-4299-a31e-34311348608a?action=share&source=copy-link&creator=43170492
 
 ---
 
