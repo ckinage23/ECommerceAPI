@@ -10,7 +10,7 @@ A modular, secure, and scalable **eCommerce backend** built with **FastAPI** usi
 - 🔐 OAuth2 Authentication (JWT) with password hashing
 - 👥 Role-based access control (Admin / Customer)
 - ✅ OpenAPI / Swagger documentation
-- 🧪 Unit and Integration tests using `pytest`
+- 🧪 Unit tests using `pytest`
 - 📄 Postman collection for testing all APIs
 - ⚙️ Alembic for database migrations
 
@@ -83,7 +83,7 @@ CREATE DATABASE ecommerce_db;
 Update your `.env` file (or `app/core/config.py`) with:
 
 ```env
-DATABASE_URL=postgresql://postgres:kinage@localhost:5433/ecommerce_db
+DATABASE_URL=postgresql://<username>:<pwd>@localhost:<port>/<dbname>
 
 ```
 
@@ -97,10 +97,10 @@ alembic upgrade head
 
 ---
 
-### 5. Seed Sample Data (Optional)
+### 5. Sample Data (Optional)
 
-```bash
-python seed.py
+```
+Run sql insert scripts provided in sql folder
 ```
 
 ---
